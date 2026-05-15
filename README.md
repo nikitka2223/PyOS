@@ -2,6 +2,7 @@
 
 **PyOS** is a modular, terminal-based operating environment built with Python. Originally inspired by minimalist Unix shells.
 ---
+`If it works on Python – it works on PythOS`
 
 ## 🚀 Quick Start Guide
 
