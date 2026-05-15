@@ -18,3 +18,11 @@ PyOS requires **Python 3.8+** and **Tkinter**. Most systems have Python, but Tki
 Install the necessary libraries for the Serpent Browser and System Monitor:
 ```bash
 pip install requests beautifulsoup4 psutil
+```
+
+### 3. Installation (Release Version)
+1. Download `PyOS_release.zip` from the Releases section.
+2. Extract the archive into a folder named `PyOS`.
+3. Open your terminal in that folder and launch the system:
+```bash
+python3 pyos.py
