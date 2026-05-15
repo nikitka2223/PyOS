@@ -1,4 +1,4 @@
-# 🐍 PyOS: Serpent Edition v4.5.1
+# 🐍 PyOS v4.5.1
 
 **PyOS** is a modular, terminal-based operating environment built with Python. Originally inspired by minimalist Unix shells.
 ---
