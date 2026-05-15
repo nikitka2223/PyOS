@@ -22,8 +22,8 @@ pip install requests beautifulsoup4 psutil
 ```
 
 ### 3. Installation (Release Version)
-1. Download `PyOS_release.zip` from the Releases section.
-2. Extract the archive into a folder named `PyOS`.
+1. Download `PythOS_release.zip` from the Releases section.
+2. Extract the archive into a folder named `PythOS`.
 3. Open your terminal in that folder and launch the system:
 ```bash
 python3 pyos.py
