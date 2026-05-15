@@ -4,7 +4,7 @@ import os, sys, importlib.util, hashlib, json
 class PyOS:
     def __init__(self):
         self.root = tk.Tk()
-        self.root.title("PyOS Kernel")
+        self.root.title("PythOS Kernel")
         self.root.geometry("1000x600")
         self.root.configure(bg="#1e1f29")
         
@@ -50,7 +50,7 @@ class PyOS:
             self.txt.insert("end", "First boot: Create ROOT account\nPassword: ")
             self.login_step = "create_root"
         else:
-            self.txt.insert("end", "PyOS Kernel v4.5.1\nLogin: ")
+            self.txt.insert("end", "PythOS Kernel v5.0\nLogin: ")
             self.login_step = "user"
         self.mark_input()
 
@@ -128,7 +128,7 @@ class PyOS:
 
     def draw_prompt(self):
         prefix = "#" if self.is_admin else "$"
-        self.txt.insert("end", f"[{self.current_user}@pyos]:~{prefix} ")
+        self.txt.insert("end", f"[{self.current_user}@pythos]:~{prefix} ")
         self.txt.mark_set("input_start", "insert-1c")
         self.txt.see("end")
 
@@ -159,7 +159,7 @@ class PyOS:
             except Exception as e:
                 self.txt.insert("end", f"Error: {e}\n")
         else:
-            self.txt.insert("end", f"pyos: {name}: command not found\n")
+            self.txt.insert("end", f"pythOS: {name}: command not found\n")
 
 if __name__ == "__main__":
     PyOS()
