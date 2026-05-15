@@ -1,4 +1,4 @@
-# 🐍 PyOS v5.0
+# 🐍 PythOS v5.0
 
 **PyOS** is a modular, terminal-based operating environment built with Python. Originally inspired by minimalist Unix shells.
 ---
